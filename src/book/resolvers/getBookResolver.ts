@@ -1,6 +1,6 @@
 import Book, { IBook } from '../types.js'
 
-export async function bookResolver(
+export async function getBookResolver(
   _,
   args
 ): Promise<IBook> {

@@ -1,6 +1,6 @@
 import Author, { IAuthor } from '../types.js'
 
-export async function authorResolver(
+export async function getAuthorResolver(
   _,
   args
 ): Promise<IAuthor> {

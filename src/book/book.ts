@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 
-import { bookResolver } from './resolvers/bookResolver.js'
-import { bookAuthorResolver } from './resolvers/bookAuthorResolver.js'
+import { getBookResolver } from './resolvers/getBookResolver.js'
+import { getBookAuthorResolver } from './resolvers/getBookAuthorResolver.js'
 
 export const typeDefs = gql`
   extend type Query {
@@ -17,9 +17,9 @@ export const typeDefs = gql`
 
 export const resolvers = {
   Query: {
-    book: bookResolver
+    book: getBookResolver
   },
   Book: {
-    author: bookAuthorResolver
+    author: getBookAuthorResolver
   }
 }
