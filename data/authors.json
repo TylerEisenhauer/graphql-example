@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "64b4a65f6545e76fa325c378"
+  },
+  "firstName": "Author",
+  "lastName": "One"
+},
+{
+  "_id": {
+    "$oid": "64b4a6866545e76fa325c379"
+  },
+  "firstName": "Author",
+  "lastName": "Two"
+}]

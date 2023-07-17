@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "64b4a6a26545e76fa325c37b"
+  },
+  "title": "Book One",
+  "author": {
+    "$oid": "64b4a65f6545e76fa325c378"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4a6c66545e76fa325c37c"
+  },
+  "title": "Book Two",
+  "author": {
+    "$oid": "64b4a65f6545e76fa325c378"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4a6cd6545e76fa325c37d"
+  },
+  "title": "Book Three",
+  "author": {
+    "$oid": "64b4a65f6545e76fa325c378"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4a6d36545e76fa325c37e"
+  },
+  "title": "Book Four",
+  "author": {
+    "$oid": "64b4a6866545e76fa325c379"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4a6dc6545e76fa325c37f"
+  },
+  "title": "Book Five",
+  "author": {
+    "$oid": "64b4a6866545e76fa325c379"
+  }
+}]
